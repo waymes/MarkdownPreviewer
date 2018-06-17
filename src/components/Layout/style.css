@@ -1,0 +1,66 @@
+.markdown *{
+  font-family: Arial, sans-serif;
+}
+
+.markdown p{
+  word-wrap: break-word;
+  line-height: 25px;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6{
+  margin: 24px 0;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+}
+
+.markdown h1 {
+  font-size: 32px;
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 10px;
+}
+.markdown h2 {
+  font-size: 28px;
+}
+.markdown h3 {
+  font-size: 24px;
+}
+.markdown h4 {
+  font-size: 22px;
+}
+.markdown h5 {
+  font-size: 20px;
+}
+.markdown h6 {
+  font-size: 18px;
+}
+
+.markdown blockquote {
+  border-left: 3px solid #777;
+  margin: 0;
+  padding: 10px 0 11px 30px; 
+}
+.markdown blockquote + blockquote {
+  padding-top: 0;
+}
+
+.markdown a,
+.markdown a:visited{
+  color: #1e89ff;
+  text-decoration: none;
+}
+.markdown a:hover{
+  text-decoration: underline;
+}
+
+.markdown code {
+  background: rgba(27,31,35,0.05);
+  padding: 3px 6px;
+  border-radius: 3px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+}
